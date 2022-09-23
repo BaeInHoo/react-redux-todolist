@@ -1,5 +1,5 @@
 import { applyMiddleware, createStore } from 'redux';
-import todoApp from './reducers/reduce';
+import todoApp from './modules/reduce';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 import promise from 'redux-promise-middleware';
